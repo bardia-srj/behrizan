@@ -1,13 +1,34 @@
 body {
   margin: 0;
+  direction: rtl;
+  background-color:#1F211F;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+font-family: "iranyekan";
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+a{
+text-decoration: none;
+color: rgb(255, 255, 255);
+}
+@font-face {
+  font-family: 'iranyekan';
+  src:
+   url('./../public/Fonts/bold/iranyekanwebbold.eot') format('eot'),
+   url('./../public/Fonts/bold/iranyekanwebbold.otf') format('otf'),
+   url('./../public/Fonts/bold/iranyekanwebbold.ttf') format('ttf'),
+   url('./../public/Fonts/bold/iranyekanwebbold.woff') format('woff'),
+   url('./../public/Fonts/bold/iranyekanwebbold.woff2') format('woff2'),
+   url('./../public/Fonts/regular/iranyekanwebregular.eot') format('eot'),
+   url('./../public/Fonts/regular/iranyekanwebregular.otf') format('otf'),
+   url('./../public/Fonts/regular/iranyekanwebregular.ttf') format('ttf'),
+   url('./../public/Fonts/regular/iranyekanwebregular.woff') format('woff'),
+   url('./../public/Fonts/regular/iranyekanwebregular.woff2') format('woff2'),
 }

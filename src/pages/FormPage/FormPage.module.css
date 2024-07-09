@@ -1,0 +1,127 @@
+.FromPage{
+  padding: 20px;
+}
+.FormTitle {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  color: white;
+  margin-top: 50px;
+}
+
+.box1 {
+  
+  display: flex;
+  gap: 10px;
+}
+
+.box2 {
+  font-size: 0.8rem;
+  padding: 10px;
+  
+}
+
+.inputbox {
+  
+  color: white;
+}
+
+.inputline1 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  gap: 5px;
+  margin-left: 10px;
+
+}
+
+.inputitem1 {
+ width: 45%;
+  background-color: #404348;
+  display: flex;
+  padding: 10px 5px;
+  border-radius: 20px;
+  color: white;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.inputline1 input {
+  border: none;
+  background: none;
+  outline: none;
+  color: white;
+}
+
+.inputline1 input::placeholder {
+  color: white;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.inputline2 {
+  width: 100%;
+  margin: 40px 0px 50px 0px;
+  display: block;
+}
+
+.inputline2 input {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.inputitem2 {
+  background-color: #404348;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border-radius: 20px;
+  color: white;
+  font-size: 1.2rem;
+}
+
+.inputitem2 svg {
+  font-size: 1.5rem;
+  padding-left: 10px;
+}
+
+.inputline2 input::placeholder {
+  color: white;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.inputline2 textarea {
+  background: none;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.inputline2 textarea::placeholder {
+  color: white;
+  font-size: 1rem;
+  padding-right: 10px;
+}
+
+.Button {
+  margin: 5px auto;
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #000;
+  border-radius: 15px;
+  width: 90%;
+  color: #FFCB05;
+  
+
+}
+
+.Button img {
+  width: 20px;
+  
+}

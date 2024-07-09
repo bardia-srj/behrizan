@@ -1,0 +1,123 @@
+
+
+
+.ItemListBox {
+  position: relative;
+  width: 100%;
+  top: 100px;
+  height: 100%;
+  margin-bottom: 150px;
+}
+
+.titleBox {
+  border-bottom: 2px solid white;
+  position: relative;
+}
+
+.Titles {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  overflow-x: scroll;
+  border-width: 33%;
+}
+
+.tabs::-webkit-scrollbar {
+  display: none;
+}
+
+.tabs {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.title {
+  flex: 0 0 33.33%;
+  box-sizing: border-box;
+  padding: 10px;
+  color: aliceblue;
+  text-align: center;
+  font-size: 0.85rem;
+}
+
+.title:hover {
+  color: #ffcb05;
+  border-bottom: 3px solid #ffcb05;
+}
+
+.tabs {
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 2px solid #ccc;
+  max-width: 100vw;
+  overflow-x: scroll;
+  font-size: 0.5rem;
+}
+
+.Tab {
+  display: flex;
+  padding: 10px 10px;
+  cursor: pointer;
+  color: white;
+  flex: 0 0 33.33%;
+  font-size: 0.9rem;
+  white-space: nowrap;
+}
+
+.Tab:active {
+  font-weight: bold;
+}
+
+.TabBorder {
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  height: 4px;
+  background-color: #ffcb05;
+  width: 0px;
+  transition: left 0.3s, width 0.3s;
+}
+
+
+
+.content {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+}
+
+.content.active {
+  display: block;
+}
+
+@media (max-width:600px) {
+  .content {
+    
+    grid-template-columns: repeat(1, 1fr);
+    
+  }
+}
+@media (min-width:600px) {
+  .content {
+    
+    grid-template-columns: repeat(2, 1fr);
+    
+  }
+}
+
+/* .Cards{
+  position: relative;
+  top: 60px;
+  padding-bottom: 50px;
+z-index: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10px;
+  justify-items: center;
+padding-left: 20px;
+padding-right: 20px;
+  
+} */

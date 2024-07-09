@@ -1,0 +1,103 @@
+.ProductPage {
+  width: 100%;
+
+  position: relative;
+  top: 99px;
+}
+.PageTitle {
+  width: 100%;
+  height: 70px;
+  background-color: #1f211f;
+  display: flex;
+  align-items: center;
+  box-sizing: border-box;
+  padding: 0 30px;
+  justify-content: space-between;
+  position: fixed;
+  z-index: 1;
+}
+.PageTitle span {
+  color: white;
+  font-size: 0.8rem;
+}
+
+.BackButton {
+  font-size: 2rem;
+  color: white;
+}
+.PageMain {
+  width: 100%;
+  height: 50vh;
+  position: absolute;
+  top: 70px;
+}
+.box1 {
+  width: 100%;
+  height: 35vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+background-color: #fff;
+}
+.box1 img {
+  width: 100%;
+  height: 100%;
+}
+
+.box2{
+    width: 100%;
+    height: 30px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 10px;
+    
+}
+.SaveLogo{
+  font-size: 1.5rem;
+    margin-right: 10px;
+}
+.InfoLogo{
+  font-size: 1.5rem;
+    margin-left: 10px;
+}
+.Button{
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding:5px 10px ;
+    background-color: #000;
+    border-radius: 50px;
+    width: 120px;
+    height: 25px;
+    color: #FFCB05;
+    padding-right: 10px;
+    font-size: .6rem;
+    text-align: center;
+   font-size: .8rem;
+}
+.Button img{
+    width: 20px;
+    padding-top: -3px;
+}
+.box3 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  overflow: scroll;
+  width: 100%;
+  height: 30vh;
+  background-color: #1f211f;
+}
+.box3::-webkit-scrollbar {
+  display: none;
+}
+.box3 {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+model-viewer::part(default-ar-button){
+  display: none;
+}

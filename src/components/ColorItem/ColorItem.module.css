@@ -1,0 +1,21 @@
+.ColorItem{
+    width: 120px;
+    height: 120px;
+    background-color: 
+    #1F211F;
+    margin: 10px;
+    flex: 0 0 auto;
+    flex-direction: column;
+   
+    justify-content: center;
+
+}
+.ColorItem img{
+  width: 70%;
+  border-radius: 10px;
+ margin-right: 10px;
+}
+.ColorItem span{
+  margin-right: 30%;
+  color: white;
+  }
